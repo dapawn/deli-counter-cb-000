@@ -3,7 +3,7 @@
 def line(arr)
   s = "The line is currently:"
   arr.length == 0 ? s = "The line is currently empty." : arr.each_with_index{ |x, i| s << " #{i+1}. #{x}" }
-  return s
+  p s
 end
 
 def take_a_number(arr, name)
