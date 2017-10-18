@@ -10,3 +10,7 @@ def take_a_number(arr, name)
   arr[arr.length] = name
   puts "Welcome, #{name}. You are number #{arr.length} in line."
 end
+
+def now_serving(arr)
+  arr.length == 0 ? puts "Hi" : puts "Currently serving #{arr.pop}."
+end
