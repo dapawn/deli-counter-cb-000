@@ -12,5 +12,5 @@ def take_a_number(arr, name)
 end
 
 def now_serving(arr)
-  arr.length < 1 ? puts "Hi" : puts "Currently serving #{arr.pop}."
+  arr.length == 0 ? s = "Hi" : s = "Currently serving #{arr.pop}."
 end
