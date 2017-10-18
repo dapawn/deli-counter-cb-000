@@ -2,7 +2,7 @@
 
 def line(arr)
   s = "The line is currently:"
-  arr.length == 0 ? p return "The line is currently empty." : arr.each_with_index{ |x, i| s << " #{i+1}. #{x}" }
+  arr.length == 0 ? return "The line is currently empty." : arr.each_with_index{ |x, i| s << " #{i+1}. #{x}" }
   return s
 end
 
